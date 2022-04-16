@@ -35,7 +35,7 @@ public class ConsegnaController {
     }
 
     @PostMapping
-    ResponseEntity<Consegna> saveOne(@RequestBody Consegna prodotto) {
+    ResponseEntity<Consegna> save(@RequestBody Consegna prodotto) {
         Consegna consegna1 = consegnaService.save(prodotto);
         return new ResponseEntity<>(consegna1, HttpStatus.OK);
     }
