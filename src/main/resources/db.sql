@@ -1,7 +1,7 @@
 insert into deliveries values(10001,'Sala Consilina');
 insert into deliveries values(10002,'Avellino');
 insert into deliveries values(10003,'Salerno');
-insert into deliveries values(10004'Napoli');
+insert into deliveries values(10004, 'Napoli');
 
 insert into products values(10011,'Samsung s9', 9);
 insert into products values(100502,'HP Notebook', 15);
