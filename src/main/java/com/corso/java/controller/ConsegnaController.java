@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/weekend/v1/consegna")
+@RequestMapping("/weekend/consegna/v1")
 @CrossOrigin(origins = "http://localhost:3000")
 public class ConsegnaController {
 
